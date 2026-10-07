@@ -1,0 +1,25 @@
+{
+    "MAE": 21.1826,
+    "MSE": 881.566,
+    "RMSE": 29.6912,
+    "R2_Score": 0.9037,
+    "Algorithm": "Linear Regression",
+    "Train_Samples": 2920,
+    "Test_Samples": 730,
+    "Total_Samples": 3650,
+    "Features": [
+        "Year",
+        "Month",
+        "Day",
+        "Day_of_Week",
+        "Lag_1",
+        "Lag_7",
+        "Rolling_Mean_7",
+        "Rolling_Mean_30",
+        "Current_Stock",
+        "Lead_Time_Days",
+        "Previous_Sales"
+    ],
+    "Target": "Demand",
+    "Trained_Timestamp": "2026-09-27 10:46:24"
+}
